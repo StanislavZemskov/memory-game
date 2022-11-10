@@ -9,7 +9,7 @@ function App() {
     const [field, setField] = useState([])
 
     const [score, setScore]= useState([])
-    
+
 
     function startGame(){
         const newField = new Array(12).fill(null).map(el =>({
